@@ -1,0 +1,27 @@
+{
+  "extra": {
+   "installer-types": ["npm-package"],
+   "installer-paths": {
+      "docroot/modules/npm-packages/{$name}": ["type:npm-package"]
+     }
+   },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "kbeamnsidc/webpack-lab",
+        "version": "1.0",
+        "type": "npm-package",
+        "source": {
+          "type": "git",
+          "reference": "master",
+          "url": "https://github.com/kbeamnsidc/webpack-lab.git"
+        }
+      }
+    }
+  ],
+  "require": {
+    "kbeamnsidc/webpack-lab": "^1.0",
+    "oomphinc/composer-installers-extender": "^2.0"
+  }
+}
