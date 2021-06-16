@@ -6,7 +6,7 @@ complete yet. I'm following the article
 [How to Install a Node.js Project Within Composer](https://blog.myplanet.com/how-to-install-a-node-js-project-within-composer-df9561a8cdb8)
 but haven't grokked or implemented all of it yet.
 
-The current status is that the running the make targets
+The current status is that running the make targets
 shown below, and using the `composer.json` config
 file, we can install a test / fake npm app from GitHub.
 
@@ -28,7 +28,7 @@ yet.
 I think the next steps are to run the Drupal image
 and hand it the local `docroot` directory. Then we
 can test adding the JS bundle to a Drupal page / block /
-thing and seeing if & how this works.
+thing and see if & how this works.
 
 ### Pull down two Docker images that we'll use:
 
